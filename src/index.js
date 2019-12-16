@@ -26,7 +26,7 @@ class App extends Component {
         <CharComponent
           character={ch}
           key={index}
-          clicked={() => this.deleteCharacter(indexss)}
+          clicked={() => this.deleteCharacter(index)}
         />
       );
     });
